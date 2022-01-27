@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Character_Move : MonoBehaviour {
     #region 變數宣告 ===============================================================================================================
-
     /// <summary>
     /// 是否有移動量
     /// </summary>
@@ -62,12 +61,13 @@ public class Character_Move : MonoBehaviour {
 
     #region 函式 ===============================================================================================================
 
+    //設定把運算解果套到velocity達到移動效果
     protected void Move() {
         if(move_pos != Vector2.zero) {
             move = true;
             
             move_pos_sum = move_pos * speed;
-            //設定移動量
+            //設定把運算解果套到velocity達到移動效果
             rb.velocity = new Vector3(move_pos_sum.x, rb.velocity.y, move_pos_sum.y);
         }
         else {

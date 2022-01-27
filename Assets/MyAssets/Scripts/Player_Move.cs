@@ -196,6 +196,7 @@ public class Player_Move : Character_Move {
         //計算減速完的速度
         speed_sum = speed_add - drag;
 
+        //如果
         if(speed_sum > speed_max)
         speed_sum *= speed_max/speed_sum;
         else if(speed_sum < 0)

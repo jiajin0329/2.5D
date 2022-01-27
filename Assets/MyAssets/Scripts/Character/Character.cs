@@ -9,9 +9,15 @@ public class Character : MonoBehaviour {
     /// <summary>
     /// 移動方式
     /// </summary>
-    public Move_Type move_type;
+    [Header("移動方式")]
+    [SerializeField]
+    private Move_Type move_type;
 
-    
+    /// <summary>
+    /// 移動class
+    /// </summary>
+    [Header("移動程式")]
+    [SerializeField]
     private Move move;
 
     void Start() {

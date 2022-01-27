@@ -4,12 +4,12 @@ using UnityEngine;
 
 [System.Serializable]
 public class Move {
-
-    #region 變數宣告 ===============================================================================================================
-
+#region 變數宣告 ===============================================================================================================
     /// <summary>
     /// 是否有移動量
     /// </summary>
+    [Header("是否有移動量")]
+    [SerializeField]
     private bool move = false;
     /// <summary>
     /// 是否有移動量
@@ -21,23 +21,21 @@ public class Move {
     /// <summary>
     /// 自己的Transform
     /// </summary>
+    [Header("自己的Transform")]
+    [SerializeField]
     protected Transform tf;
-    /// <summary>
-    /// 自己的Transform
-    /// </summary>
-    public Transform _tf {
-        get { return tf; }
-    }
 
     /// <summary>
     /// 自己Rigidbody
     /// </summary>
+    [Header("自己的Transform")]
+    [SerializeField]
     protected Rigidbody rb;
 
     /// <summary>
     /// 移動量
     /// </summary>
-    [Header("移動量")]
+    [Header("移動比例座標")]
     [SerializeField]
     protected Vector2 move_pos;
     /// <summary>
@@ -60,26 +58,16 @@ public class Move {
     private float speed = 3f;
 
     #endregion =============================================================================================================== 變數宣告
-
+    
     #region 函式 ===============================================================================================================
 
-    /// <summary>
-    /// 移動主架構
-    /// </summary>
-    public virtual void _Move() {
-
-        Debug.Log("Move");
-    }
-
-    /// <summary>
-    /// 移動演算法
-    /// </summary>
-    private void Move_Algorithm() {
+    //設定把運算解果套到velocity達到移動效果
+    public void _Move(){
         if(move_pos != Vector2.zero) {
             move = true;
             
             move_pos_sum = move_pos * speed;
-            //設定移動量
+            //設定把運算解果套到velocity達到移動效果
             rb.velocity = new Vector3(move_pos_sum.x, rb.velocity.y, move_pos_sum.y);
         }
         else {
