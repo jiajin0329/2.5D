@@ -3,30 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Character : MonoBehaviour {
-    
-    public enum Move_Type{player}
+    private enum Move_Type{player}
 
-    /// <summary>
-    /// 移動方式
-    /// </summary>
+    // 移動方式
     [Header("移動方式")]
     [SerializeField]
     private Move_Type move_type;
 
-    /// <summary>
-    /// 移動class
-    /// </summary>
-    [Header("移動程式")]
+    // 這個物件的GameObject
+    [Header("這個物件的GameObject")]
     [SerializeField]
+    private GameObject go;
+
+    // 使用的移動程式
     private Move move;
 
+    //初始化
     void Start() {
-        if(move_type == Move_Type.player) {
-            move = new Player();
-        }
-    }
 
-    // Update is called once per frame
+        if(move_type == Move_Type.player)move = go.AddComponent<Player>();
+    }
+    
     void Update() {
         move._Move();
     }
