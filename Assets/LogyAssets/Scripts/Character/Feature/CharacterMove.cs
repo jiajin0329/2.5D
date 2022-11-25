@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour {
+public class CharacterMove : MonoBehaviour {
     static Vector2 movePosition;
     static public Vector2 Get_movePosition() {return movePosition;}
     [SerializeField] Vector2 show_movePosition;
