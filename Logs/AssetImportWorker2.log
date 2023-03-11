@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Program Files/Unity/Project/2021.3/2.5D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+65489
+Successfully changed project path to: C:/Program Files/Unity/Project/2021.3/2.5D
+C:/Program Files/Unity/Project/2021.3/2.5D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18804] Host "[IP] 26.183.208.102 [Port] 0 [Flags] 2 [Guid] 4209179871 [EditorId] 4209179871 [Version] 1048832 [Id] WindowsEditor(7,NOBOLLEL-TONY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18804] Host "[IP] 26.183.208.102 [Port] 0 [Flags] 2 [Guid] 4209179871 [EditorId] 4209179871 [Version] 1048832 [Id] WindowsEditor(7,NOBOLLEL-TONY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 69.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Project/2021.3/2.5D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010679 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 315 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (603ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (389ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1231ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (478.8 KB). Loaded Objects now: 4026.
+Memory consumption went from 172.6 MB to 172.1 MB.
+Total: 5.145700 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.324800 ms MarkObjects: 3.988400 ms  DeleteObjects: 0.412700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8821.264574 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_cornerTile_var2.mat
+  artifactKey: Guid(f6166e097d2bf9749a8a81e2146afb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_cornerTile_var2.mat using Guid(f6166e097d2bf9749a8a81e2146afb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f8c736cdd973585207f3e08abcc4b') in 1.181836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_invertedCornerTile.mat
+  artifactKey: Guid(906e3ef4c3528494aa5ca34f4b2961ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_invertedCornerTile.mat using Guid(906e3ef4c3528494aa5ca34f4b2961ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb423eb49b7ec9e3f540b1028027724e') in 0.044483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/threeWayTile_mesh.fbx
+  artifactKey: Guid(bff4804a436b51b4da9728228acd5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/threeWayTile_mesh.fbx using Guid(bff4804a436b51b4da9728228acd5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a198f389b22c93508ed5c59b36ad6de') in 0.280786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/House/Mesh/house_edge2_mesh.fbx
+  artifactKey: Guid(8ab3bade5501e88438359e6e9919cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/House/Mesh/house_edge2_mesh.fbx using Guid(8ab3bade5501e88438359e6e9919cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97464676f9e2b02954dc555704472f1') in 0.131784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265ae8c2aeb99d39392c7485cffb4ecb') in 0.080310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d1d692e9c9386651701663c555c7c6') in 0.111906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_edgeTile.mat
+  artifactKey: Guid(897c24ea4b4c3084d95301ed7283d293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_edgeTile.mat using Guid(897c24ea4b4c3084d95301ed7283d293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a6c1ce9e1928de83489d5267241760') in 0.049934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_Sand_edge.mat
+  artifactKey: Guid(fea556f6706e8a449bccc708bf716a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_Sand_edge.mat using Guid(fea556f6706e8a449bccc708bf716a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50685861540e31a881537f345b16f327') in 0.057287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+  artifactKey: Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Jigsaw_Mat.mat using Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b57180846c0f995a17f7f3fe98bfde') in 1.151556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c40b29dc6b1b9213b9376f1d945eff') in 0.090874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Mesh/blockRamp_interiorCorner_mesh.fbx
+  artifactKey: Guid(820bf778a570f304db212d150df04148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Mesh/blockRamp_interiorCorner_mesh.fbx using Guid(820bf778a570f304db212d150df04148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71ad56701044325be915dda55e846fd') in 0.043598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08322c0d3529314dbb1796600ba85849') in 0.036137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/fourWayTile_mesh.fbx
+  artifactKey: Guid(b579f978180193549851a974ebbc7bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/fourWayTile_mesh.fbx using Guid(b579f978180193549851a974ebbc7bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8accf5757b5c799799e92ad1aec434cf') in 0.063765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2.5D/Art/Materials/Character/LevelSpriteShadow.mat
+  artifactKey: Guid(718705f89ef98c545a14c7352d932e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.5D/Art/Materials/Character/LevelSpriteShadow.mat using Guid(718705f89ef98c545a14c7352d932e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b728f3ea5ea891d54a7f2d1f5ae78e') in 0.026968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1398ea0b6cd933a6753938044cd1502') in 0.064555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Materials/matBlockTilesPreset.mat
+  artifactKey: Guid(a5410bd320b47094b8db45e20b68a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Materials/matBlockTilesPreset.mat using Guid(a5410bd320b47094b8db45e20b68a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7ac7c3718e614ac3c237eee76f355f') in 0.028555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c562e9d6e9820dee6e166a859bdd96') in 0.023727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe65f74c94e2d7db09c1aef50db8355') in 0.054188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/cornerTile_mesh.fbx
+  artifactKey: Guid(07d1b7e7e9072174782fa188253e2aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/cornerTile_mesh.fbx using Guid(07d1b7e7e9072174782fa188253e2aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b2c24d06ee828c755a217380d884de') in 0.054118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_Sand_fill.mat
+  artifactKey: Guid(5222f8b187adc3d4f908a366e2ba0c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_Sand_fill.mat using Guid(5222f8b187adc3d4f908a366e2ba0c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b933d8c84e2b31ebcb6eabc759b610') in 0.026512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Mesh/block_edge_mesh.fbx
+  artifactKey: Guid(34df0a4f3992a3345aad70b12b7c1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Mesh/block_edge_mesh.fbx using Guid(34df0a4f3992a3345aad70b12b7c1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14c9643062c50bb54f472de965277c7') in 0.036846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/deadEndTile_mesh.fbx
+  artifactKey: Guid(e2d135fd21f01ef429ab7d6bd815c4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/6-Tiles/Roads/Mesh/deadEndTile_mesh.fbx using Guid(e2d135fd21f01ef429ab7d6bd815c4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b11ae280f4c329a281a8bafd7e75c1') in 0.054859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6acb586cfc5287d68a81014b1080a7') in 0.026871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/2DIsland/_mesh/Materials/lambert1.mat
+  artifactKey: Guid(dbe34a1b94f435141ae80f5dd48ea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/2DIsland/_mesh/Materials/lambert1.mat using Guid(dbe34a1b94f435141ae80f5dd48ea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada8c2d1a3b2d4212d28601528e3e138') in 0.022415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc274c1bca7d31dfbf64708630e461d6') in 0.024700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_stones.mat
+  artifactKey: Guid(913a2e8d651430744bfb36d63caa8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_CliffIsland_stones.mat using Guid(913a2e8d651430744bfb36d63caa8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd631ac817057a378d7d1f060fe5967e1') in 0.021082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9702992dc16134921e8e00f9c3a4fa') in 0.133848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Mesh/blockRamp_edge_mesh.fbx
+  artifactKey: Guid(32aa6194db1233a44a05d691e4bf3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/Block/Mesh/blockRamp_edge_mesh.fbx using Guid(32aa6194db1233a44a05d691e4bf3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a559cfd8300a488f791524b1be6a3f') in 0.047497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
+  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3120276cbcc34839ec8923c1f1a258a') in 0.048176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287c5abad85b5eb7df1ec49ff5bbb356') in 0.108004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a40146fd05632615429df382baee560') in 0.031359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_Sand_exteriorCorner.mat
+  artifactKey: Guid(bfa85bebb83b2b94499739ec20e60a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 2 Tiles/CliffIsland/_materials/mat_Sand_exteriorCorner.mat using Guid(bfa85bebb83b2b94499739ec20e60a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9d618f6cb7f531469939c532d1550c') in 0.019025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/House/Mesh/house_fill_mesh.fbx
+  artifactKey: Guid(0cbbc06f96068c546a058ea8316774d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileWorldCreator/Tiles/Version 3 Tiles/4-Tiles/House/Mesh/house_fill_mesh.fbx using Guid(0cbbc06f96068c546a058ea8316774d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9265fc9b1d27796264a2cb6ab7687455') in 0.036618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9c5e3bbd0de07092860545e79b5597') in 0.027381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6451df83c93fbf228b8efd7e62cdfda') in 0.024263 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

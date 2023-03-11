@@ -54,3 +54,31 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.cinemachine from version 2.8.6 to 2.8.9
   com.unity.inputsystem from version 1.4.2 to 1.4.3
+
+=== Fri Dec 16 15:06:59 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.inputsystem from version 1.4.3 to 1.4.4
+  com.unity.render-pipelines.universal from version 12.1.7 to 12.1.8
+  com.unity.shadergraph from version 12.1.7 to 12.1.8
+
+=== Thu Feb  9 23:08:23 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.universal from version 12.1.8 to 12.1.9
+  com.unity.shadergraph from version 12.1.8 to 12.1.9
+
+=== Sat Mar 11 15:23:23 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.universal from version 12.1.9 to 12.1.10
+  com.unity.shadergraph from version 12.1.9 to 12.1.10
